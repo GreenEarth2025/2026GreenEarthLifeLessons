@@ -1,24 +1,32 @@
 body {
+    background-color: #111;
+    color: #e0e0e0;
     font-family: Arial, sans-serif;
 }
 
 header {
-    font-weight: bold;
+    background-color: #000;
 }
 
-#diary-entry {
-    background-color: #f7f7f7;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+.card {
+    border: none;
 }
 
-#diaryEntryForm {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
+.form-control {
+    border: 1px solid #444;
 }
 
-#diary-entries {
-    padding: 40px;
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.list-group-item {
+    background-color: #222;
+    border: 1px solid #444;
+    color: #e0e0e0;
+}
+
+h1, h2 {
+    color: #ffffff;
 }
